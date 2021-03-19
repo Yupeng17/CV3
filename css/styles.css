@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+h1 {
+  margin-top: 85px;
+  font-family: 'Caveat', cursive;
+  font-size: 5em;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Chango', cursive;
+  font-size: 2.6em;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.4em;
+}
+
+p {
+    line-height: 100px;
+}
+
+hr {
+  border: dotted #ff847c 10px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 7%;
+}
+
+a {
+  color: #e0f5b9;
+  font-family: 'Chango', cursive;
+  margin: 10px 20px;
+  font-size: 130%;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+/************************************CLASS SELECTORS********************************/
+.top-container {
+  background-color: #effad3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #f4f9f9;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+.top-cloud {
+  position: absolute;
+  width: 100px;
+  top: 200px;
+  right: 500px;
+  animation-name: cloudtop-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cloudtop-animation {
+  0%{
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0,50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 100px;
+  bottom: 150px;
+  left: 400px;
+  animation-name: cloudbottom-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cloudbottom-animation {
+  0%{
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.tool {
+  width: 190px;
+  height: 190px;
+  padding-top: 50px;
+}
+
+.phone {
+  width: 190px;
+  height: 190px;
+  padding-top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  overflow: auto;
+}
+
+.maketing {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.photo {
+  width: 20%;
+  float: right;
+  margin-right: 30px;
+}
+
+.video {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.web {
+  width: 20%;
+  float: right;
+  margin-right: 30px;
+}
+
+.profile-pic {
+  padding-top: 50px;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.contact {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #fcb3b3;
+  background-image: -webkit-linear-gradient(top, #fcb3b3, #2980b9);
+  background-image: -moz-linear-gradient(top, #fcb3b3, #2980b9);
+  background-image: -ms-linear-gradient(top, #fcb3b3, #2980b9);
+  background-image: -o-linear-gradient(top, #fcb3b3, #2980b9);
+  background-image: linear-gradient(to bottom, #fcb3b3, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Caveat', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 14px 11px 16px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fff2bf;
+  background-image: -webkit-linear-gradient(top, #fff2bf, #52a6de);
+  background-image: -moz-linear-gradient(top, #fff2bf, #52a6de);
+  background-image: -ms-linear-gradient(top, #fff2bf, #52a6de);
+  background-image: -o-linear-gradient(top, #fff2bf, #52a6de);
+  background-image: linear-gradient(to bottom, #fff2bf, #52a6de);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #eaf6f6;
+}
